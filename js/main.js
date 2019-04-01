@@ -186,7 +186,10 @@
                 var end = 'Olá! Meu nome é: ' + form.nome + ' vim tratar sobre: ' + form.subject + ', com as seguintes informações: ' 
                 + message;
 
-                window.location.href = "https://api.whatsapp.com/send?phone=5591980522829&text=" + end;
+                window.open(
+                    "https://api.whatsapp.com/send?phone=5591980522829&text=" + end,
+                    '_blank' // <- This is what makes it open in a new window.
+                  );
             });
 
 
