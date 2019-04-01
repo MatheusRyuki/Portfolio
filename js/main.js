@@ -188,8 +188,8 @@
 
                 window.open(
                     "https://api.whatsapp.com/send?phone=5591980522829&text=" + end,
-                    '_blank' // <- This is what makes it open in a new window.
-                  );
+                    '_blank'
+                );
             });
 
 
